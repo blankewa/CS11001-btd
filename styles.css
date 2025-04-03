@@ -1,0 +1,15 @@
+/*
+colors: 
+    - wood background brown = #c1995e  
+    - button green = #74e802
+    - text offwhite = #fef9fc
+
+*/
+
+nav {
+    font-family: "Luckiest Guy", regular;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #c1995e;
+    color: #fef9fc;
+}
