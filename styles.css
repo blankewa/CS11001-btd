@@ -13,3 +13,13 @@ nav {
     background-color: #c1995e;
     color: #fef9fc;
 }
+
+.nav-link {
+    color: #fef9fc;
+}
+
+.nav-link:hover {
+    color: #fef9fc;
+}
+
+/* i dont know how to get the dropdown text to stay white once its clicked */
