@@ -1,6 +1,8 @@
 /*
 colors: 
     - wood background brown = #c1995e  
+    - sunken wood background brown = #966338
+    - sunked wood border brown = #8b5b2f
     - button green = #74e802
     - text offwhite = #fef9fc
 
@@ -12,10 +14,20 @@ nav {
     font-style: normal;
     background-color: #c1995e;
     color: #fef9fc;
+    border-bottom-style: outset;
+    border-color: #8b5b2f;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* hack to get outlined text */
 }
 
 .nav-link {
     color: #fef9fc;
+    background-color: #966338;
+    padding: 5px;
+    border-style: inset;
+    border-width: 2px;
+    border-color: #8b5b2f;
+    border-radius: 5px;
+    margin: 0 5px 0 5px;
 }
 
 .nav-link:hover {
