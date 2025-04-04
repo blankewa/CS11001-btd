@@ -22,4 +22,6 @@ nav {
     color: #fef9fc;
 }
 
-/* i dont know how to get the dropdown text to stay white once its clicked */
+.active { /* i dont know how to get the dropdown text to stay white once its clicked */
+    color: #fef9fc;
+}
