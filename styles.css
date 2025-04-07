@@ -1,12 +1,12 @@
 
 
 :root {
-    --bs-navbar-active-color: #fef9fc; /* this is a bootstrap variable so this doesnt actually work :( */
     --wood-background: #c1995e;
     --sunken-wood-background: #966338;
     --sunken-wood-border: #8b5b2f;
     --button-green: #74e802;
     --text-offwhite: #fef9fc;
+    --bs-navbar-active-color: var(--text-offwhite); /* this is a bootstrap variable so this doesnt actually work :( */
 }
 
 nav {
