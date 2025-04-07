@@ -7,6 +7,7 @@
     --button-green: #74e802;
     --text-offwhite: #fef9fc;
     --bs-navbar-active-color: var(--text-offwhite); /* this is a bootstrap variable so this doesnt actually work :( */
+    --text-outline: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* hack to get outlined text */
 }
 
 nav {
@@ -28,7 +29,7 @@ nav {
     border-color: var(--sunken-wood-border);
     border-radius: 5px;
     margin: 0 5px 0 5px;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* hack to get outlined text */
+    text-shadow: var(--text-outline)
 }
 
 .nav-link:hover {
@@ -44,7 +45,7 @@ nav {
 
 .dropdown-item {
     color: var(--text-offwhite);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: var(--text-outline);
     padding: 4px 16px 4px 16px;
 }
 
