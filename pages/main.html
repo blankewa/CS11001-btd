@@ -12,15 +12,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./main.html"><img src="../images/franchise_logo.png" alt="Bootstrap" width="80" height="60"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcollapse" aria-controls="navcollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
               
-
-
                 <div class="collapse navbar-collapse" id="navcollapse">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown my-2">
@@ -52,6 +50,53 @@
             </div>
         </nav>
 
+        <div class="container mt-5">
+            <div class="col-10 offset-1">
+                <div class="carousel slide" id="gamecarousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <a href="./games.html#Bloons_Tower_Defense">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="../images/btd1.png" class="d-block w-100">
+                            </div>
+                        </a>
+                        <a href="./games.html#Bloons_Tower_Defense_2">
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="../images/btd2.png" class="d-block w-100">
+                            </div>
+                        </a>
+                        <a href="./games.html#Bloons_TD_3">
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="../images/btd3.png" class="d-block w-100">
+                            </div>
+                        </a>
+                        <a href="./games.html#Bloons_TD_4">
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="../images/btd4.png" class="d-block w-100">
+                            </div>
+                        </a>
+                        <a href="./games.html#Bloons_TD_5">
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="../images/btd5.png" class="d-block w-100">
+                            </div>
+                        </a>
+                        <a href="./games.html#Bloons_TD_6">
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="../images/btd6.jpg" class="d-block w-100">
+                            </div>
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#gamecarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#gamecarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    
+                </div>
+            </div>
+        </div>
 
         <script src="../script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
