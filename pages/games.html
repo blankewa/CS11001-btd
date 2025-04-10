@@ -10,8 +10,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/games.css">
+        <script defer src="/script.js"></script>
     </head>
     <body>
+        <!--Top navbar, using bootstrap (ew) - on all pages-->
         <nav class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./main.html"><img src="../images/franchise_logo.png" alt="Bootstrap" width="80" height="60"></a>
@@ -52,6 +55,66 @@
             </div>
         </nav>
 
+        <!--Left navbar only on my page but shows which section the user is in-->
+        <div id="bar">
+            <nav class="leftNav">
+                <ul>
+                <li><a class="smoothscroll shop" id="one" href="#shop">SHOP</a></li>
+                <li><a class="smoothscroll service" id="two" href="#service">SERVICE</a></li>
+                <li><a class="smoothscroll trails" id="three" href="#trails">TRAILS</a></li>
+                <li><a class="smoothscroll hire" id="four" href="#hire">HIRE</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--Sections for each game-->
+        <section id="btd1" class="bg">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Bloons Tower Defense 1</h1>
+                <button class="btn btn-warning learn-more" data-bs-toggle="modal" data-bs-target="#modal1">Learn More</button>
+            </div>
+        </section>
+
+        <section id="btd2" class="bg">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Bloons Tower Defense 2</h1>
+                <button class="btn btn-warning learn-more" data-bs-toggle="modal" data-bs-target="#modal2">Learn More</button>
+            </div>
+        </section>
+
+        <section id="btd3" class="bg">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Bloons TD 3</h1>
+                <button class="btn btn-warning learn-more" data-bs-toggle="modal" data-bs-target="#modal3">Learn More</button>
+            </div>
+        </section>
+
+        <section id="btd4" class="bg">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Bloons TD 4</h1>
+                <button class="btn btn-warning learn-more" data-bs-toggle="modal" data-bs-target="#modal4">Learn More</button>
+            </div>
+        </section>
+
+        <section id="btd5" class="bg">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Bloons TD 5</h1>
+                <button class="btn btn-warning learn-more" data-bs-toggle="modal" data-bs-target="#modal5">Learn More</button>
+            </div>
+        </section>
+
+        <section id="btd6" class="bg">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Bloons TD 6</h1>
+                <button class="btn btn-warning learn-more" data-bs-toggle="modal" data-bs-target="#modal6">Learn More</button>
+            </div>
+        </section>
         <script src="../script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>

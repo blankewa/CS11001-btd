@@ -1,0 +1,112 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Luckiest Guy', cursive;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/*Top nav css, i kinda broke the bootstrap (nobody cried)*/
+nav.navbar{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 100;
+}
+
+/*Left Nav, name highlights deoending on section*/
+.leftNav ul {
+	list-style: none;
+	padding: 10vh 0;
+	text-align: center;
+}
+
+.leftNav ul li a {
+	color: #949494;
+    font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.leftNav ul li a.active {
+    color: #ffffff;
+}
+
+a.button {
+    font-family: headings, sans-serif;
+	color: #ff8921;
+	font-size: 25px; 
+	text-decoration: none;
+    border-bottom: 4px solid #ff8921;
+	float: right;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+a.button:hover{
+    color:#ffffff;
+    border-bottom: 4px solid #ffffff;
+    transition: 0.2s;
+}
+
+/*Css for each of the individual games, sections are identical but backgroup differs*/
+section{
+    height: 100vh;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.content{
+position: relative;
+z-index: 2;
+max-width: 80%;
+}
+
+.learn-more{
+margin-top: 20px;
+}
+
+.bg{
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+#btd1{ 
+background: url(/images/bt1Placeholder.jpg) center no-repeat fixed; 
+}
+
+#btd2{ 
+background: url(/images/bt2Placeholder.jpg) center no-repeat fixed; 
+}
+
+#btd3{ 
+background: url(/images/bt3Placeholder.jpg) center no-repeat fixed; 
+}
+
+#btd4{ 
+background: url(/images/bt4Placeholder.jpg) center no-repeat fixed; 
+}
+
+#btd5{ 
+background: url(/images/bt5Placeholder.jpg) center no-repeat fixed; 
+}
+
+#btd6{ 
+background: url(/images/bt6Placeholder.jpg) center no-repeat fixed; 
+}
