@@ -26,11 +26,11 @@ nav.navbar{
 }
 
 #leftNav ul li a {
-	color: #949494;
-    font-size: 20px;
+	color: #F9F9F9;
+    font-size: 18px;
 	text-align: center;
 	text-decoration: none;
-	font-weight: 700;
+	font-weight: 100;
 }
 
 #leftNav ul li a.active {
@@ -42,7 +42,7 @@ nav.navbar{
 	position: fixed;
 	width: 150px;
 	height: 100vh;
-	background-color: rosybrown;
+	background-color: #00AEEF;
 }
 
 /*Css for each of the individual games, sections are identical but backgroup differs*/
