@@ -25,6 +25,10 @@ nav.navbar{
 	text-align: center;
 }
 
+#leftNav ul li{
+    margin-bottom: 20px;
+}
+
 #leftNav ul li a {
 	color: #F9F9F9;
     font-size: 18px;
@@ -34,7 +38,7 @@ nav.navbar{
 }
 
 #leftNav ul li a.active {
-    color: #ffffff;
+    color: #FFD700;
 }
 
 #bar {
@@ -54,6 +58,7 @@ section{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-left: 150px;
 }
 
 .content{
