@@ -54,49 +54,70 @@ section{
     height: 100vh;
     color: white;
     position: relative;
+    flex-direction: row;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     padding-left: 150px;
 }
 
+.infoBox {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(125, 176, 68, 0.7);
+    padding: 20px;
+    padding-top: 10%;
+    height: 100vh;
+    max-width: 500px;
+    color: white;
+    border-left: 5px solid #FFD700;
+    font-size: 18px;
+    text-align: left;
+}
+
+.titleLogo{
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 3vh;
+}
+
 .content{
-position: relative;
-z-index: 2;
-max-width: 80%;
+    position: relative;
+    z-index: 2;
+    max-width: 80%;
 }
 
 .learn-more{
-margin-top: 20px;
+    margin-top: 20px;
 }
 
 .bg{
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #btd1{ 
-background: url(/images/Bloons_TD_iOS_Logo.jpg) center no-repeat fixed;
+    background: url(/images/Bloons_TD_iOS_Logo.jpg) center no-repeat fixed;
 }
 
 #btd2{ 
-background: url(/images/bt2Placeholder.jpg) center no-repeat fixed; 
+    background: url(/images/bt2Placeholder.jpg) center no-repeat fixed; 
 }
 
 #btd3{ 
-background: url(/images/bt3Placeholder.jpg) center no-repeat fixed; 
+    background: url(/images/bt3Placeholder.jpg) center no-repeat fixed; 
 }
 
 #btd4{ 
-background: url(/images/bt4Placeholder.jpg) center no-repeat fixed; 
+    background: url(/images/bt4Placeholder.jpg) center no-repeat fixed; 
 }
 
 #btd5{ 
-background: url(/images/bt5Placeholder.jpg) center no-repeat fixed; 
+    background: url(/images/bt5Placeholder.jpg) center no-repeat fixed; 
 }
 
 #btd6{ 
-background: url(/images/bt6Placeholder.jpg) center no-repeat fixed; 
+    background: url(/images/bt6Placeholder.jpg) center no-repeat fixed; 
 }
