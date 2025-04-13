@@ -77,9 +77,9 @@ section{
 }
 
 .titleLogo{
-    width: 100%;
-    height: 20vh;
-    margin-bottom: 3vh;
+    width: 120%;
+    height: 25vh;
+    margin-bottom: 4vh;
 }
 
 .content{
@@ -99,25 +99,25 @@ section{
 }
 
 #btd1{ 
-    background: url(/images/Bloons_TD_iOS_Logo.jpg) center no-repeat fixed;
+    background: url(/images/BTD1Map.png) center no-repeat fixed;
 }
 
 #btd2{ 
-    background: url(/images/bt2Placeholder.jpg) center no-repeat fixed; 
+    background: url(/images/BTD2Map.png) right bottom no-repeat fixed; 
 }
 
 #btd3{ 
-    background: url(/images/bt3Placeholder.jpg) center no-repeat fixed; 
+    background: url(/images/btd3Map.png) center no-repeat fixed; 
 }
 
 #btd4{ 
-    background: url(/images/bt4Placeholder.jpg) center no-repeat fixed; 
+    background: url(/images/btd4Map.png) center no-repeat fixed; 
 }
 
 #btd5{ 
-    background: url(/images/bt5Placeholder.jpg) center no-repeat fixed; 
+    background: url(/images/btd5Map.png) center no-repeat fixed; 
 }
 
 #btd6{ 
-    background: url(/images/bt6Placeholder.jpg) center no-repeat fixed; 
+    background: url(/images/btd6Map.png) center no-repeat fixed; 
 }
