@@ -57,3 +57,7 @@ nav {
     border-width: 2px;
     padding: 2px 14px 2px 14px;
 }
+
+footer {
+    background-color: var(--wood-background);
+}
