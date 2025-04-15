@@ -1,5 +1,3 @@
-<!-- spinoff games page -->
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,9 +8,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/spinoffs.css">
+        <script defer src="/script.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <!--Top navbar, using bootstrap (ew) - on all pages-->
+        <nav class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./main.html"><img src="../images/franchise_logo.png" alt="Bootstrap" width="80" height="60"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcollapse" aria-controls="navcollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,101 +52,80 @@
                 </div>
             </div>
         </nav>
-        
-        <div id="Bloons_TD_Battles" class="container-fluid mt-5" >
-            <div class="row align-items-start">
-                <div class="col">
-                    <p>
-                        Bloons TD Battles was released on December 12, 2012,and later to Android and iOS platforms in-between November 5 and 6, 2013, respectively. On April 20, 2016, it came to Steam as a ported version.
-                    </p>
-                    <p>
-                        The gameplay is similar to that in Bloons TD 5 but two players compete against one another in one of four game modes. In Assault Mode and Battle Arena, each player normally progresses through the levels that are usually equal to 2x-1 in terms of BTD5 levels. For example, round 7 in BTD Battles would be round 13 in BTD5. However, the players are also given the ability to purchase additional bloons, which are sent to the opponent in an attempt to overwhelm them. In "Defense" mode, the players play a natural game with the screen split vertically. Players can spend money to increase their income. In "Card Battles" mode, the players choose from a selection of cards to use in their games. The cards have two functions: sending bloons to the enemy player, which, like in Assault Mode, will give the player who sends the bloons extra income; and placing down a tower. All three game mode objectives are to outlast the opponent in surviving the bloon attacks. Using the games' skill-based matching system, players can be automatically matched with one another. The last mode is Club Battles, in which players can play with up to three of the six game-modifying "cards". The card selection can be chosen ahead of time when playing against a friend in a private lobby but is random when playing other opponents. Players earn a club ticket every day at 7 PM, or they can receive one club ticket from the daily wheel. Another mode is Battle with Friends, in which a player can play one of the four game modes with a friend, not a random player, by entering a code for the player's private lobby.
-                    </p>
-                </div>
-                <div class="col-3">
-                    <h1>Bloons TD Battles</h1>
-                    <img src="../images/Bloons_Battles.png" height="250px" width="auto" >
-                </div>
-            </div>
+
+        <!--Left navbar only on my page but shows which section the user is in-->
+        <div id="bar">
+            <span id="leftNav">
+                <ul>
+                <li><a class="smoothscroll" id="one" href="#Bloons_TD_Battles">Bloons Tower Defence Battles</a></li>
+                <li><a class="smoothscroll" id="two" href="#Bloons_Monkey_City">Bloons Monkey City</a></li>
+                <li><a class="smoothscroll" id="three" href="#Bloons_Adventure_Time_TD">Bloons Tower Defense Adventure Time</a></li>
+                <li><a class="smoothscroll" id="four" href="#Bloons_TD_Battles_2">Bloons Tower Defense Battles 2</a></li>
+                </ul>
+            </span>
         </div>
 
-        <div id="Bloons_Monkey_City" class="container-fluid mt-5">
-            
-
-            <div class="row align-items-start">
-                <div class="col-3">
-                    <h1>Bloons Monkey City</h1>
-                    <img src="../images/Monkey_City.png" height="325px" width="auto" >
+        <!--Sections for each game-->
+        <section id="Bloons_TD_Battles" class="bg">
+            <div class="infoBox">
+                <div class="content">
+                    <img class="titleLogo" src="../images/Bloons_Battles.png" alt="Bloons Tower Defence Battles">
                 </div>
-
-                <div class="col">
-                    <p>
-                        Like Bloons TD Battles, the core gameplay is similar to that of BTD5, however, the player has to maintain a city, expanding the city by capturing bloon-infested areas called tiles. One important goal of the game is levelling up the city. Players earn XP for the city by capturing tiles, completing missions or building towers. Earning higher levels with XP grants access to certain unique game features, like Monkey vs. Monkey, Monkey Knowledge, etc.
-                    </p>
-                    <p>
-                        Monkey vs. Monkey allows players to fight each other; raids can be launched using the resource "Bloontonium". This can be acquired by capturing certain tiles or with Bloontonium generators. If the opponent fails to defend against the raid in the set time period, the attacker gains city cash, another resource in the game used to build towers, bloonstones, the 'premium currency' of the game, and city honor, which has no primary purpose in the game other than achievements.
-                    </p>
-                    <p>
-                        One primary difference between this game and the others in the Bloons series is the addition of buildings. Buildings in Bloons Monkey City are required in order to use and upgrade towers. Some buildings serve as prerequisites to other buildings, while others are prerequisites to using certain bloons in raids. The number of towers the player can use in a game is determined by how many of the corresponding type of building the player possesses. Some buildings unlock new monkeys, while upgrade buildings unlock upgrades to be researched for these monkeys. There are also special starred tiles that are required to capture in order to unlock the Monkey Engineer, the Bloonchipper, the Heli-Pilot, and the Monkey Sub. They also unlock permanent boosts (Special Items) to attack speed or pierce for specific towers or how long their effect lasts like the Glue Gunner. Special buildings are required to unlock the tier four upgrades, camo bloon defense, and MOAB-class bloon popping power (the Sun God and Robo Monkey also require buildings). This game contains 3,000 tiles in each city (9 of which are already captured, leaving 2991 tiles for the player to capture), and a new MOAB-class bloon, the DDT (or Dark Dirigible Titan).
-                    </p>
-                    <p>
-                        In mid-2014, Ninja Kiwi released a new mode known as Contested Territory, a mini-game which offers bonus rewards, and pits players against each other, all of whom compete to survive the most rounds for the longest time on a trickier-than-normal track. This game was released on browsers, but a port to iOS and Android was released on December 3, 2014, and February 18, 2015, respectively. The Steam version was released on April 10, 2020.
-                    </p>
+                <p class="infoText">
+                    Bloons TD Battles was released on December 12, 2012,
+                    The gameplay is similar to that in Bloons TD 5 but two players compete against one another in one of four game modes.
+                </p>
+                <div class="content">
+                    <button class="btn btn-warning learn-more" data-bs-toggle="modal" data-bs-target="#modal1">Learn More</button>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div id="Bloons_Adventure_Time_TD" class="container-fluid mt-5">
-            
-            <div class="row align-items-start">
-                <div class="col">
-                    <p>
-                        Bloons Adventure Time TD is a crossover game between Ninja Kiwi's Bloons TD series and Cartoon Network's Adventure Time series that was announced via the Cartoon Network International News Site and the Ninja Kiwi blog on March 8 and 9, 2018, respectively.
-                    </p>
-                    <p>
-                        The game had a soft launch on July 14, 2018, in Australia, New Zealand, Philippines, and Singapore on Android and iOS and later launched internationally. The game features characters from Cartoon Network's Adventure Time such as Jake the Dog, Finn the Human, and Princess Bubblegum as well as new monkey heroes like Max, Cassie, and C4 Charlie.
-                    </p>
-                    <p>
-                        This game is different from the main Bloons TD formula in that you could only place one of each tower, like the hero system in Bloons TD 6.
-                    </p>
-                    <p>
-                        The gameplay is similar to other games in the series, with a new weapon and item mechanic as well. There are at least 15 adventures and 50 maps to play in that act as the playing stage of the game.
-                    </p>
+        <section id="Bloons_Monkey_City" class="bg">
+            <div class="infoBox">
+                <div class="content">
+                    <img class="titleLogo" src="../images/Monkey_City.png" alt="Bloons Monkey City">
                 </div>
-                <div class="col-4">
-                    <h1>Bloons Adventure Time TD</h1>
-                    <img src="../images/Bloons_adventure_time.png" height="250px" width="auto" >
+                <p class="infoText">
+                    Like Bloons TD Battles, the core gameplay is similar to that of BTD5, 
+                    however, the player has to maintain a city, expanding the city by capturing bloon-infested areas called tiles
+                </p>
+                <div class="content">
+                    <button class="btn btn-warning learn-more" data-bs-toggle="modal" data-bs-target="#modal1">Learn More</button>
                 </div>
             </div>
-        </div>
-        
-        <div id="Bloons_TD_Battles_2" class="container-fluid mt-5">
+        </section>
 
-            <div class="row align-items-start">
-                <div class="col-4">
-                    <h1>Bloons TD Battles 2</h1>
-                    <img src="../images/Bloons_Battles_2.png" height="325px" width="auto" >
+        <section id="Bloons_Adventure_Time_TD" class="bg">
+            <div class="infoBox">
+                <div class="content">
+                    <img class="adventurelogo" src="../images/adventuretime.png" alt="Bloons Adventure Time">
                 </div>
-                
-                <div class="col">
-                    <p>
-                        Bloons TD Battles 2, the sequel to Bloons TD Battles, was released on November 30, 2021. It was first leaked in Ninja Kiwi's YouTube video for Bloons TD 6's 24.0 update, on an iPad on the side. On October 22, 2021, another trailer was released titled "The rules of the Arena" detailing more gameplay.
-                    </p> 
-                    <p>
-                        The gameplay is similar to the original Bloons TD Battles. Two players compete with each other in a player versus player gameplay, with three monkey types and a Hero, defending against pregenerated rounds and Bloon sends from the other player. The game also has 3-D graphics and more Bloon types, similar to Bloons TD 6. Players must create a defense consisting of monkeys and machines that protect against waves of Bloons, which otherwise results in a loss of lives if the bloons reach the exit(s). The battle is over upon losing all lives, with the winner being the survivor of the battle.
-                    </p> 
-                    <p>
-                        In Bloons TD Battles 2, the player must outsmart the opponent by sending Bloons at the opponent while simultaneously defending against their sent Bloons. Players automatically generate "eco", which is automatically earned cash every few seconds, allowing them to spend money on towers and upgrades over time. Winning allows the player to advance to higher arenas, which sends them to arenas of higher prestige. Reaching the maximum arena, Hall of Masters, allows the player to rank up on the game's public leaderboard.
-                    </p> 
-                    <p>
-                        Optionally, players can unlock cosmetics that can be bought for visual appeal, as well as unlock heroes, towers, and Tier 5 upgrades, using a currency called Monkey Money.
-                    </p> 
-                    <p>
-                        In March 2024, Bloons TD Battles 2 has been released in Apple Arcade as Bloons TD Battles 2+.
-                    </p> 
+                <p class="infoText">
+                    Bloons Adventure Time TD is a crossover game between Ninja Kiwi's Bloons TD series and Cartoon Network's Adventure Time series,
+                    it was announced via the Cartoon Network International News Site and the Ninja Kiwi blog on March 8 and 9, 2018, respectively.
+                </p>
+                <div class="content">
+                    <button class="btn btn-warning learn-more" data-bs-toggle="modal" data-bs-target="#modal1">Learn More</button>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section id="Bloons_TD_Battles_2" class="bg">
+            <div class="infoBox">
+                <div class="content">
+                    <img class="titleLogo" src="../images/Bloons_Battles_2.png" alt="Bloons Tower Defense Battles 2">
+                </div>
+                <p class="infoText">
+                    Bloons TD Battles 2, the sequel to Bloons TD Battles,
+                    was released on November 30, 2021.[67] It was first leaked in Ninja Kiwi's YouTube video for Bloons TD 6's 24.0 update
+                </p>
+                <div class="content">
+                    <button class="btn btn-warning learn-more" data-bs-toggle="modal" data-bs-target="#modal1">Learn More</button>
+                </div>
+            </div>
+        </section>
+
 
         <script src="../script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
