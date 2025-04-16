@@ -11,6 +11,7 @@
     --text-outline: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* hack to get outlined text */
     --button-white-outline: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -4px -4px 0 #fafcfc, 4px -4px 0 #fafcfc, -4px 4px 0 #fafcfc, 4px 4px 0 #fafcfc;
     --button-black-outline: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    --text-outline-thick: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 nav {
@@ -91,4 +92,10 @@ footer > div {
 .social-links > a {
     color: var(--text-offwhite);
     text-decoration: none;
+}
+
+.main-header {
+    font-family: 'Luckiest Guy';
+    color: var(--text-offwhite);
+    text-shadow: var(--text-outline-thick);
 }
