@@ -87,3 +87,8 @@ footer > div {
 .footer > p > a {
     color: var(--text-offwhite);
 }
+
+.social-links > a {
+    color: var(--text-offwhite);
+    text-decoration: none;
+}
