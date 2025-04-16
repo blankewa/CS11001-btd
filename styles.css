@@ -60,4 +60,6 @@ nav {
 
 .main-header {
     font-family: 'Luckiest Guy';
+    color: var(--text-offwhite);
+    text-shadow: var(--text-outline);
 }
