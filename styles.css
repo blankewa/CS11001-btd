@@ -8,6 +8,7 @@
     --text-offwhite: #fef9fc;
     --bs-navbar-active-color: var(--text-offwhite); /* this is a bootstrap variable so this doesnt actually work :( */
     --text-outline: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* hack to get outlined text */
+    --text-outline-thick: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 nav {
@@ -56,4 +57,10 @@ nav {
     border-color: var(--sunken-wood-border);
     border-width: 2px;
     padding: 2px 14px 2px 14px;
+}
+
+.main-header {
+    font-family: 'Luckiest Guy';
+    color: var(--text-offwhite);
+    text-shadow: var(--text-outline-thick);
 }
