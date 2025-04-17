@@ -99,3 +99,12 @@ footer > div {
     color: var(--text-offwhite);
     text-shadow: var(--text-outline-thick);
 }
+
+#gameplayinfo {
+    height: 72px;
+}
+
+#gameplayinfo > li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
