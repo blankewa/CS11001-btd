@@ -120,21 +120,22 @@ section{
 
 #Bloons_TD_Battles{ 
     background: url(../images/BattlesMap.png) right bottom no-repeat fixed;
-    background-size: 2000px 1080px;
+    background-size: cover;
 }
 
 #Bloons_Monkey_City{ 
     background: url(../images/CityMap.png) right bottom no-repeat fixed; 
-    background-size: 2000px 1080px;
+    background-size: cover;
 }
 
 #Bloons_Adventure_Time_TD{ 
-    background: url(../images/AdventureTimeMap.png) right bottom no-repeat fixed; 
+    background: url(../images/AdventureTimeMap.png) right bottom no-repeat fixed;
+    background-size: cover;
 }
 
 #Bloons_TD_Battles_2{ 
     background: url(../images/Battles2Map.png) right bottom no-repeat fixed;
-    background-size: 2000px 950px;
+    background-size: cover;
 }
 
 .modal-content{
