@@ -98,26 +98,26 @@ section{
     background-attachment: fixed;
 }
 
-#btd1{ 
-    background: url(/images/BTD1Map.png) center no-repeat fixed;
+#Bloons_Tower_Defense{ 
+    background: url(/images/BTD1Map.png) center right no-repeat fixed;
 }
 
-#btd2{ 
-    background: url(/images/BTD2Map.png) right bottom no-repeat fixed; 
+#Bloons_Tower_Defense_2{ 
+    background: url(/images/BTD2Map.png) center right no-repeat fixed; 
 }
 
-#btd3{ 
-    background: url(/images/btd3Map.png) center no-repeat fixed; 
+#Bloons_TD_3{ 
+    background: url(/images/btd3Map.png) center right no-repeat fixed; 
 }
 
-#btd4{ 
-    background: url(/images/btd4Map.png) center no-repeat fixed; 
+#Bloons_TD_4{ 
+    background: url(/images/btd4Map.png) center right no-repeat fixed; 
 }
 
-#btd5{ 
-    background: url(/images/btd5Map.png) center no-repeat fixed; 
+#Bloons_TD_5{ 
+    background: url(/images/btd5Map.png) center right no-repeat fixed; 
 }
 
-#btd6{ 
-    background: url(/images/btd6Map.png) center no-repeat fixed; 
+#Bloons_TD_6{ 
+    background: url(/images/btd6Map.png) center right no-repeat fixed; 
 }
