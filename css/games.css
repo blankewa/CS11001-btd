@@ -100,26 +100,32 @@ section{
 
 #Bloons_Tower_Defense{ 
     background: url(../images/BTD1Map.png) center right no-repeat fixed;
+    background-size: cover;
 }
 
 #Bloons_Tower_Defense_2{ 
     background: url(../images/BTD2Map.png) center right no-repeat fixed; 
+    background-size: cover;
 }
 
 #Bloons_TD_3{ 
     background: url(../images/btd3Map.png) center right no-repeat fixed; 
+    background-size: cover;
 }
 
 #Bloons_TD_4{ 
     background: url(../images/btd4Map.png) center right no-repeat fixed; 
+    background-size: cover;
 }
 
 #Bloons_TD_5{ 
     background: url(../images/btd5Map.png) center right no-repeat fixed; 
+    background-size: cover;
 }
 
 #Bloons_TD_6{ 
     background: url(../images/btd6Map.png) center right no-repeat fixed; 
+    background-size: cover;
 }
 
 /*media Query time!*/
@@ -145,26 +151,32 @@ section{
 
     #Bloons_Tower_Defense{ 
         background: url(../images/BTD1MapFlipped.png) center right no-repeat fixed;
+        background-size: cover;
     }
 
     #Bloons_Tower_Defense_2{ 
         background: url(../images/BTD2MapFlipped.png) center right no-repeat fixed; 
+        background-size: cover;
     }
     
     #Bloons_TD_3{ 
         background: url(../images/btd3MapFlipped.png) center right no-repeat fixed; 
+        background-size: cover;
     }
     
     #Bloons_TD_4{ 
         background: url(../images/btd4MapFlipped.png) center right no-repeat fixed; 
+        background-size: cover;
     }
     
     #Bloons_TD_5{ 
         background: url(../images/btd5MapFlipped.png) center right no-repeat fixed; 
+        background-size: cover;
     }
     
     #Bloons_TD_6{ 
         background: url(../images/btd6MapFlipped.png) center right no-repeat fixed; 
+        background-size: cover;
     }
 }
 
