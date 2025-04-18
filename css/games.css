@@ -124,6 +124,16 @@ section{
 
 /*media Query time!*/
 
+@media(max-width: 1000px){
+    .infoBox {
+        padding-top: 15%;
+    }
+
+    #leftNav ul{
+        padding: 15vh 0;
+    }
+}
+
 @media(max-width: 850px){
     .infoBox {
         padding-top: 20%;
@@ -158,7 +168,7 @@ section{
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 650px){
     #bar{
         display: none;
     }
