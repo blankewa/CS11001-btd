@@ -2,6 +2,7 @@ body, html{
     margin: 0;
     padding: 0;
     font-family: 'Luckiest Guy', cursive;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -90,6 +91,13 @@ section{
 
 .learn-more{
     margin-top: 20px;
+    color: white;
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.learn-more:hover {
+    color:white;
+
 }
 
 .bg{
@@ -193,4 +201,13 @@ section{
         border-left: none;
         min-width: 100vw;
     }
+}
+
+.modal-header {
+    color: white;
+}
+
+.modal-body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: none;
 }
