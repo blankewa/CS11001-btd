@@ -1,0 +1,213 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    min-width: 100%;
+}
+
+/*Top nav css, i kinda broke the bootstrap (nobody cried)*/
+nav.navbar{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 100;
+}
+
+/*Left Nav, name highlights deoending on section*/
+#leftNav ul {
+	list-style: none;
+	padding: 10vh 0;
+	text-align: center;
+}
+
+#leftNav ul li{
+    margin-bottom: 20px;
+}
+
+#leftNav ul li a {
+	color: #F9F9F9;
+    font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 100;
+}
+
+#leftNav ul li a.active {
+    color: #FFD700;
+}
+
+#bar {
+    z-index: 1;
+	position: fixed;
+	width: 150px;
+	height: 100vh;
+	background-color: #00AEEF;
+}
+
+/*Css for each of the individual games, sections are identical but backgroup differs*/
+section{
+    height: 100vh;
+    color: white;
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+}
+
+.infoBox {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(125, 176, 68, 0.7);
+    padding: 20px;
+    padding-top: 10%;
+    height: 100vh;
+    max-width: 500px;
+    color: white;
+    border-left: 5px solid #FFD700;
+    font-size: 18px;
+    text-align: left;
+}
+
+.titleLogo{
+    width: 120%;
+    height: 25vh;
+    margin-bottom: 4vh;
+}
+
+.content{
+    position: relative;
+    z-index: 2;
+    max-width: 80%;
+}
+
+.learn-more{
+    margin-top: 20px;
+    color: white;
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.learn-more:hover {
+    color:white;
+
+}
+
+.bg{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#Bloons_Tower_Defense{ 
+    background: url(../images/BTD1Map.png) center right no-repeat fixed;
+    background-size: cover;
+}
+
+#Bloons_Tower_Defense_2{ 
+    background: url(../images/BTD2Map.png) center right no-repeat fixed; 
+    background-size: cover;
+}
+
+#Bloons_TD_3{ 
+    background: url(../images/btd3Map.png) center right no-repeat fixed; 
+    background-size: cover;
+}
+
+#Bloons_TD_4{ 
+    background: url(../images/btd4Map.png) center right no-repeat fixed; 
+    background-size: cover;
+}
+
+#Bloons_TD_5{ 
+    background: url(../images/btd5Map.png) center right no-repeat fixed; 
+    background-size: cover;
+}
+
+#Bloons_TD_6{ 
+    background: url(../images/btd6Map.png) center right no-repeat fixed; 
+    background-size: cover;
+}
+
+/*media Query time!*/
+
+@media(max-width: 1000px){
+    .infoBox {
+        padding-top: 15%;
+    }
+
+    #leftNav ul{
+        padding: 15vh 0;
+    }
+}
+
+@media(max-width: 850px){
+    .infoBox {
+        padding-top: 20%;
+    }
+
+    #leftNav ul{
+        padding: 20vh 0;
+    }
+
+    #Bloons_Tower_Defense{ 
+        background: url(../images/BTD1MapFlipped.png) center right no-repeat fixed;
+        background-size: cover;
+    }
+
+    #Bloons_Tower_Defense_2{ 
+        background: url(../images/BTD2MapFlipped.png) center right no-repeat fixed; 
+        background-size: cover;
+    }
+    
+    #Bloons_TD_3{ 
+        background: url(../images/btd3MapFlipped.png) center right no-repeat fixed; 
+        background-size: cover;
+    }
+    
+    #Bloons_TD_4{ 
+        background: url(../images/btd4MapFlipped.png) center right no-repeat fixed; 
+        background-size: cover;
+    }
+    
+    #Bloons_TD_5{ 
+        background: url(../images/btd5MapFlipped.png) center right no-repeat fixed; 
+        background-size: cover;
+    }
+    
+    #Bloons_TD_6{ 
+        background: url(../images/btd6MapFlipped.png) center right no-repeat fixed; 
+        background-size: cover;
+    }
+}
+
+@media(max-width: 650px){
+    #bar{
+        display: none;
+    }
+
+    section{
+        padding-left: 0px;
+    }
+
+    .infoBox{
+        border-left: none;
+        min-width: 100vw;
+    }
+}
+
+.modal-header {
+    color: white;
+}
+
+.modal-body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: none;
+}
