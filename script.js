@@ -13,4 +13,4 @@
         navLinks[i].classList.add("active");
       }
     });
-  });
+  });sections

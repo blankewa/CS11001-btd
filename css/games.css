@@ -121,3 +121,54 @@ section{
 #Bloons_TD_6{ 
     background: url(/images/btd6Map.png) center right no-repeat fixed; 
 }
+
+/*media Query time!*/
+
+@media(max-width: 850px){
+    .infoBox {
+        padding-top: 20%;
+    }
+
+    #leftNav ul{
+        padding: 20vh 0;
+    }
+
+    #Bloons_Tower_Defense{ 
+        background: url(/images/BTD1MapFlipped.png) center right no-repeat fixed;
+    }
+
+    #Bloons_Tower_Defense_2{ 
+        background: url(/images/BTD2MapFlipped.png) center right no-repeat fixed; 
+    }
+    
+    #Bloons_TD_3{ 
+        background: url(/images/btd3MapFlipped.png) center right no-repeat fixed; 
+    }
+    
+    #Bloons_TD_4{ 
+        background: url(/images/btd4MapFlipped.png) center right no-repeat fixed; 
+    }
+    
+    #Bloons_TD_5{ 
+        background: url(/images/btd5MapFlipped.png) center right no-repeat fixed; 
+    }
+    
+    #Bloons_TD_6{ 
+        background: url(/images/btd6MapFlipped.png) center right no-repeat fixed; 
+    }
+}
+
+@media(max-width: 500px){
+    #bar{
+        display: none;
+    }
+
+    section{
+        padding-left: 0px;
+    }
+
+    .infoBox{
+        border-left: none;
+        min-width: 100vw;
+    }
+}
